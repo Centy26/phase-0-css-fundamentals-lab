@@ -3,3 +3,50 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center; /*centers the header of the webpage */
+}
+#featured-property {
+  text-align: center;
+  padding: 20px;
+}
+
+#featured-property figure {
+  display: inline-block;
+}
+
+#featured-property img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: grey;
+}
+#featured-property figcaption {
+  font-size: 0.8em; /* Shrink the font size */
+  text-align: center; /* Center the text */
+}
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+#details div {
+  float: left;
+  width: 20%;
+  box-sizing: border-box;
+}
+#details div {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  background-color: #cc4747; /* Same background color for all divs */
+  text-align: center; /* Center text */
+}
